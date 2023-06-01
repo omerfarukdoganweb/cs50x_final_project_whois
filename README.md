@@ -3,21 +3,24 @@
 
 
 WHOIS Query using Python
-This Python code can be used to query the DNS registration information of a given URL. This code connects to various WHOIS servers to obtain information such as the owner of a domain, registration date, last updated date and expiration date.
+You can use the following Python code to query the DNS registration information of a given URL. This code connects to various WHOIS servers to obtain information such as the owner of a domain, registration date, last updated date and expiration date.
 
 Usage
 Enter the website address for which you want to perform a WHOIS query on the url variable.
 Run the code.
-python
+
+<code>python
 $ python whois.py
 Enter website url for whois query: www.example.com
+</code>
+  
 Dependencies
 This code requires the socket library to function.
 
 Example Output
 The following example shows the output from a WHOIS query performed on google.com.
 
-Registrant Name: DNS Admin
+<code>Registrant Name: DNS Admin
 Registrant Organization: Google Inc.
 Registrant Street: 1600 Amphitheatre Parkway
 Registrant City: Mountain View
@@ -62,5 +65,6 @@ Name Server: ns4.google.com
 DNSSEC: unsigned
 URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
 >>> Last update of WHOIS database: 2023-06-01T00:00:00Z <<<
+</code>
 License
 This project is licensed under the MIT License.
